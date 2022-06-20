@@ -15,10 +15,38 @@ public class MainController {
 	//gs
 	
 	//일반 
-	@RequestMapping(value="/test", method = {RequestMethod.GET, RequestMethod.POST})
+	
+	@RequestMapping(value="/main", method = {RequestMethod.GET, RequestMethod.POST})
+	public String main() {
+		System.out.println("MainController.main()");
+		
+		return"main/index.jsp";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*
 	public String test() {
 		System.out.println("MainController > test()");
 		
 		return "test"; 
-	}
+	}*/
 }
