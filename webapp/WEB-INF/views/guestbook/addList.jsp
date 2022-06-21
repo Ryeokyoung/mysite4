@@ -30,7 +30,7 @@
 				<td colspan=4 align=right><button type="submit">등록</button></td>
 			</tr>
 		</table>
-	</form>
+	</form>d
 	<br/>
 	
 	<c:forEach items="${gList}" var="guestVo" varStatus ="status">
