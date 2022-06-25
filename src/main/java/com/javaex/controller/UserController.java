@@ -20,7 +20,9 @@ public class UserController {
 	@Autowired
 	UserService userService;
 	// 생성자
-	// 메소드gs
+	
+	// gs
+	
 	// 메소드일반
 
 	// 로그인폼
