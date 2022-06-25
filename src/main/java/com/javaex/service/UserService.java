@@ -14,7 +14,8 @@ public class UserService {
 	private UserDao userDao;
 
 	// 생성자
-	// 메소드gs
+	
+	// gs
 
 	// 메소드 일반
 
