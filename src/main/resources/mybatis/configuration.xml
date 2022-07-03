@@ -10,9 +10,11 @@
 	
 	
 	<mappers>
-		<mapper resource="mybatis/mappers/users.xml" />
-		<mapper resource="mybatis/mappers/board.xml" />
+		<mapper resource="mybatis/mappers/user.xml" />
 		<mapper resource="mybatis/mappers/guestbook.xml" />
+		<mapper resource="mybatis/mappers/board.xml" />
+		<mapper resource="mybatis/mappers/files.xml" />
+		<mapper resource="mybatis/mappers/gallery.xml" />
 	</mappers>
 	
 	

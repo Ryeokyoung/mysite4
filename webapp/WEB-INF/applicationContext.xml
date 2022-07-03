@@ -38,6 +38,7 @@
 		<property name="connectionCachingEnabled" value="true" />
 		<qualifier value="main-db" />
 	</bean>
+	
 	<!-- MyBatis SqlSessionFactoryBean 설정 -->
 	<bean id="sqlSessionFactory"
 		class="org.mybatis.spring.SqlSessionFactoryBean">
